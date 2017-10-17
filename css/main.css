@@ -49,10 +49,10 @@ text-align: center;
 
 @media screen and (min-width:67.5em) {
   .logo img {
-  position: absolute;
-  right: 30em;
-  top: 1em;
-  width: 5%; 
+position: absolute;
+  right: -14px;
+  top: -15px;
+  width: 18%;
 }
 }
 
