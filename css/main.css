@@ -46,6 +46,19 @@ text-align: center;
   width: 5%;
 }
 
+
+@media screen and (min-width:67.5em) {
+  .logo img {
+  position: absolute;
+  right: -14px;
+  top: -15px;
+  width: 18%;
+}
+}
+
+
+
+
 .hero {
   
   background: url(../img/wall4.JPG) center center ;
