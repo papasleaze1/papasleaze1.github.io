@@ -1,8 +1,12 @@
 body {
   background-color: #000;
   margin-top: 40px;
+
 }
 
+.clearfix {
+  clear:both;
+}
 .flex-direction-nav a:before {
   content: '\276E';
 }
@@ -341,11 +345,34 @@ margin-left: 35%;
   color: #fff;
   border: 1px solid #fff;
   border-radius: 5px;
-  padding: 0 10px;
+  padding: 0 5px;
   line-height: 2;
 }
 
-.learn a:hover {
+.buy {
+  margin-bottom: 20px;
+}
+
+.buy a:hover {
+  background-color: #fff;
+  color: #212121;
+}
+
+.buy p {
+  text-align: left;
+}
+
+.buy a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 0 5px;
+  line-height: 2;
+}
+
+.buy a:hover {
   background-color: #fff;
   color: #212121;
 }
@@ -559,12 +586,12 @@ p {
     
 /*gallery*/
 
-
 .gallery ul {
   list-style: none;
   padding: 0;
   margin: 0 0 20px;
   overflow: hidden;
+
 }
 
 .gallery li {
@@ -582,6 +609,7 @@ p {
 .gallery li p {
   padding: 0 10%;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 
