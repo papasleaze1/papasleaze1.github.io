@@ -29,7 +29,8 @@ var checkout = $('#dpd2').fdatepicker({
 });
 
 $('#dpd3').click(function(){
-	//alert( $('#dpd1').val() + ' from ' + $('#dpd2').val() );
+	// //alert( $('#dpd1').val() + ' from ' + $('#dpd2').val() );
 	$('.date1').text( $('#dpd1').val() );
 	$('.date2').text( $('#dpd2').val() );
+
 });
