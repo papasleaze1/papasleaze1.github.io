@@ -1,0 +1,63 @@
+.discount {
+background-color: #eededf;
+font-family: 'Lato', sans-serif;
+text-align: center;
+}
+
+.h1 {
+	text-align: center;
+}
+
+
+.top-bar {
+background-color: #f2f2f2;
+
+
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background-color: #f2f2f2;
+	color: #000;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+        background-color: #fff;
+        background: #fff; }
+
+.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
+	color: #000;
+}
+
+.name4{
+	color: #f2f2f2;
+}
+
+footer {
+  padding: 10px 0;
+  color: #222222;
+  background-color: #f2f2f2;
+  text-align: center;
+
+}
+
+footer p {
+  margin-top: 0;
+  position: absolute;
+  left: 3%;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.fa {
+  color: #cccccc;
+}
